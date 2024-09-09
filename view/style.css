@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    
+}
+body{
+    width: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.background-container {
+    background-image: url('../images/bg-main-desktop.png'); /* Caminho para sua imagem */
+    background-position: left; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    height: 100vh;
+    position: relative; /* Para permitir que outros itens fiquem sobre ela */
+}
+
+
+.card-front-position{
+    position: fixed;
+    top: 10%;
+    left: 10%;
+}
+.card-front-position img{
+    width: 80%;
+    position: relative;
+}
+#numero{
+    position: absolute;
+    top: 90px;
+    font-size: 28px;
+    margin-left: 25px;
+    color: white;
+}
+.nomeEvalidade{
+    position: absolute;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    bottom: 40px;
+    margin-left: 10px;
+}
+
+.card-back-position{
+    position: fixed;
+    top: 50%;
+    left: 30%;
+}
+.card-back-position img{
+    width: 80%;
+    position: relative;
+}
+.card-back-position p{
+    position: absolute;
+    width: 100%;
+    top: 78px;
+    left: 270px;
+    font-size: 26px;
+}
